@@ -6,7 +6,7 @@
  * Version: 1.0
  * URL: http://blacktie.co
  */
- 
+
 /* FONTS */
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700,900);
@@ -14,7 +14,7 @@
 /* OVERALL ASPECT */
 
 body {
-  background-color: #f2f2f2;
+    background-color: #f2f2f2;
     font-family: "Lato";
     font-weight: 300;
     font-size: 16px;
@@ -22,12 +22,17 @@ body {
 
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
-    
+
     margin-top: 70px;
 }
 
 /* Titles */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Raleway";
     font-weight: 300;
     color: #333;
@@ -72,7 +77,7 @@ a:after {
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
- hr {
+hr {
     display: block;
     height: 1px;
     border: 0;
@@ -83,49 +88,49 @@ a:after {
 
 
 .navbar {
-	font-weight: 800;
-	font-size: 14px;
-	padding-top: 15px;
-	padding-bottom: 15px;
+    font-weight: 800;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .navbar-inverse {
-	background: #2d2d2d;
-	border-color: #2d2d2d;
+    background: #000000;
+    border-color: #000000;
 }
 
-.navbar-inverse .navbar-nav > .active > a {
-	background: #ff7878
+.navbar-inverse .navbar-nav>.active>a {
+    background: #f7d200
 }
 
 .navbar-inverse .navbar-brand {
-	color: #999999;
-	font-weight: bolder;
-	font-size: 22px;
-	letter-spacing: 1px;
+    color: #999999;
+    font-weight: bolder;
+    font-size: 22px;
+    letter-spacing: 1px;
 }
 
 .navbar-inverse .navbar-brand i {
-	color: #ff7878;
-	font-size: 22px;
-	letter-spacing: 1px;
+    color: #ff7878;
+    font-size: 22px;
+    letter-spacing: 1px;
 }
 
 /*TILT*/
 .tilt {
-  -webkit-transition: all 0.5s ease;
-     -moz-transition: all 0.5s ease;
-       -o-transition: all 0.5s ease;
-      -ms-transition: all 0.5s ease;
-          transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
- 
+
 .tilt:hover {
-  -webkit-transform: rotate(-10deg);
-     -moz-transform: rotate(-10deg);
-       -o-transform: rotate(-10deg);
-      -ms-transform: rotate(-10deg);
-          transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    transform: rotate(-10deg);
 }
 
 /* ==========================================================================
@@ -133,15 +138,15 @@ a:after {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../img/header-bg.jpg) no-repeat center top;
-	margin-top: -10px;
-	padding-top:20px;
-	text-align:center;
-	background-attachment: relative;
-	background-position: center center;
-	min-height: 500px;
-	width: 100%;
-	
+    background: url(../img/header-bg.jpg) no-repeat center top;
+    margin-top: -10px;
+    padding-top: 20px;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 500px;
+    width: 100%;
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -154,154 +159,154 @@ a:after {
 }
 
 #headerwrap h1 {
-	margin-top: 100px;
-	color: white;
-	font-size: 70px;
-	font-weight: 300;
-	letter-spacing: 3px;
+    margin-top: 100px;
+    color: white;
+    font-size: 70px;
+    font-weight: 300;
+    letter-spacing: 3px;
 }
 
 #headerwrap h2 {
-	color: white;
-	font-size: 40px;
-	font-weight: 700;
-	letter-spacing: 2px;
-	text-transform: uppercase;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 /* Dark Grey Wrap */
 #dg {
-	background: #e0e0e0;
-	padding-top: 70px;
-	padding-bottom: 70px;
-	text-align: center;
+    background: #e0e0e0;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
 }
 
 #dg h4 {
-	font-weight: 700;
+    font-weight: 700;
 }
 
 /* Light Grey */
 #lg {
-	background: #ebebeb;
-	padding-top: 70px;
-	padding-bottom: 70px;
-	text-align: center;
+    background: #ebebeb;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
 }
 
 #lg h4 {
-	font-weight: 700;
+    font-weight: 700;
 }
 
 
 /* Red Wrap */
 #r {
-	background: #ff7878;
-	padding-top: 35px;
-	padding-bottom: 35px;
+    background: #ff7878;
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
 
 #r h4 {
-	color: white;
-	font-weight: 700;
+    color: white;
+    font-weight: 700;
 }
 
 #r p {
-	color: white;
+    color: white;
 }
 
 /* Blue Wrap */
 
 #blue {
-	background: #3498db;
-	padding-top: 35px;
-	padding-bottom: 35px;
+    background: #3498db;
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
 
 #blue h4 {
-	color: white;
-	font-weight: 700;
+    color: white;
+    font-weight: 700;
 }
 
 #blue p {
-	color: white;
+    color: white;
 }
 
 
 
 /* Footer Wrap */
 #f {
-	background: #2d2d2d;
-	padding-top: 30px;
-	padding-bottom: 30px;
+    background: #2d2d2d;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 #f i {
-	color: #bdbdbd;
-	font-size: 30px;
-	padding: 20px;
+    color: #bdbdbd;
+    font-size: 30px;
+    padding: 20px;
 }
 
 #f i:hover {
-	color: #ff7878;
+    color: #ff7878;
 }
 
 /****** SECTIONS *****/
 
 .w {
-	padding-top: 35px;
+    padding-top: 35px;
 }
 
 .w h4 {
-	font-weight: 700;
+    font-weight: 700;
 }
 
 .w i {
-	color: #ff7878;
-	font-size: 30px;
+    color: #ff7878;
+    font-size: 30px;
 }
 
 
 .wb {
-	padding-top: 35px;
-	margin-bottom: 0px;
+    padding-top: 35px;
+    margin-bottom: 0px;
 }
 
 .wb h4 {
-	font-weight: 700;
+    font-weight: 700;
 }
 
 .desc {
-	padding-top: 35px;
+    padding-top: 35px;
 }
 
 .desc h4 {
-	font-weight: 700;
+    font-weight: 700;
 }
 
 .desc i {
-	color: #ff7878;
-	font-size: 12px;
-	padding: 5px;
+    color: #ff7878;
+    font-size: 12px;
+    padding: 5px;
 }
 
 /***** MODAL CONTACT *****/
 .modal-content {
-	border-radius: 0px;
+    border-radius: 0px;
 
 }
 
 .modal-header {
-	background: #bdbdbd;
-	color: white;
+    background: #bdbdbd;
+    color: white;
 }
 
 .modal-header h4 {
-	font-weight: 700;
+    font-weight: 700;
 }
 
 .modal-body {
-	background: #f2f2f2;
+    background: #f2f2f2;
     font-family: "Lato";
     font-weight: 300;
     font-size: 16px;
@@ -309,14 +314,14 @@ a:after {
 }
 
 .modal-footer {
-	background: #f2f2f2;
-	margin-top: 0px; 
+    background: #f2f2f2;
+    margin-top: 0px;
 }
 
 /* ==========================================================================
    Pricing Tables
    ========================================================================== */
-   
+
 .pricing-option {
     padding-bottom: 40px;
 }
@@ -408,5 +413,3 @@ a:after {
 .pricing-option .pricing-signup:hover {
     background: #ff7878;
 }
-
-
