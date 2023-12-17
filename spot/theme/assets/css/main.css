@@ -180,6 +180,7 @@ hr {
     padding-top: 70px;
     padding-bottom: 70px;
     text-align: center;
+    margin: 20px;
 }
 
 #dg h4 {
@@ -412,4 +413,368 @@ hr {
 
 .pricing-option .pricing-signup:hover {
     background: #ff7878;
+}
+
+
+
+.btn {
+    margin: 20px;
+}
+
+@media (max-width: 500px) {
+    button {
+        background: black;
+        cursor: pointer;
+        border: none;
+        padding: 16px 32px;
+        color: #fff;
+        font-size: 24px;
+        font-weight: bold;
+        position: relative;
+        border-radius: 14px;
+        top: 0;
+        left: 0;
+    }
+
+    button::before {
+        content: "";
+        position: absolute;
+        top: 0%;
+        left: 0;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(45deg, Red, blue, deeppink, blue, Red, blue, deeppink, blue);
+        background-size: 800%;
+        border-radius: 10px;
+        filter: blur(8px);
+        animation: glowing 20s linear infinite;
+    }
+
+    @keyframes glowing {
+        0% {
+            background-position: 0 0;
+        }
+
+        50% {
+            background-position: 400% 0;
+        }
+
+        100% {
+            background-position: 0 0;
+        }
+    }
+}
+
+@media (max-width: 640px) {
+    button {
+        background: black;
+        cursor: pointer;
+        border: none;
+        padding: 16px 32px;
+        color: #fff;
+        font-size: 24px;
+        font-weight: bold;
+        position: relative;
+        border-radius: 14px;
+    }
+
+    button::before {
+        content: "";
+        position: absolute;
+        top: 0%;
+        left: 0;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(45deg, Red, blue, deeppink, blue, Red, blue, deeppink, blue);
+        background-size: 800%;
+        border-radius: 10px;
+        filter: blur(8px);
+        animation: glowing 20s linear infinite;
+    }
+
+    @keyframes glowing {
+        0% {
+            background-position: 0 0;
+        }
+
+        50% {
+            background-position: 400% 0;
+        }
+
+        100% {
+            background-position: 0 0;
+        }
+    }
+}
+
+@media (min-width: 640px) and (max-width: 790px) {
+    button {
+        background: black;
+        cursor: pointer;
+        border: none;
+        padding: 16px 32px;
+        color: #fff;
+        font-size: 24px;
+        font-weight: bold;
+        position: relative;
+        border-radius: 14px;
+        top: 50%;
+        left: 50%;
+    }
+
+    button::before {
+        content: "";
+        position: absolute;
+        top: 0%;
+        left: 0;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(45deg, Red, blue, deeppink, blue, Red, blue, deeppink, blue);
+        background-size: 800%;
+        border-radius: 10px;
+        filter: blur(8px);
+        animation: glowing 20s linear infinite;
+    }
+
+    @keyframes glowing {
+        0% {
+            background-position: 0 0;
+        }
+
+        50% {
+            background-position: 400% 0;
+        }
+
+        100% {
+            background-position: 0 0;
+        }
+    }
+}
+
+@media (min-width: 790px) and (max-width: 992px) {
+    button {
+        background: black;
+        cursor: pointer;
+        border: none;
+        padding: 16px 32px;
+        color: #fff;
+        font-size: 24px;
+        font-weight: bold;
+        position: relative;
+        border-radius: 14px;
+        top: 60%;
+        left: 70%;
+    }
+
+    button::before {
+        content: "";
+        position: absolute;
+        top: 0%;
+        left: 0;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(45deg, Red, blue, deeppink, blue, Red, blue, deeppink, blue);
+        background-size: 800%;
+        border-radius: 10px;
+        filter: blur(8px);
+        animation: glowing 20s linear infinite;
+    }
+
+    @keyframes glowing {
+        0% {
+            background-position: 0 0;
+        }
+
+        50% {
+            background-position: 400% 0;
+        }
+
+        100% {
+            background-position: 0 0;
+        }
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    button {
+        background: black;
+        cursor: pointer;
+        border: none;
+        padding: 16px 32px;
+        color: #fff;
+        font-size: 24px;
+        font-weight: bold;
+        position: relative;
+        border-radius: 14px;
+        top: 60%;
+        left: 100%;
+    }
+
+    button::before {
+        content: "";
+        position: absolute;
+        top: 0%;
+        left: 0;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(45deg, Red, blue, deeppink, blue, Red, blue, deeppink, blue);
+        background-size: 800%;
+        border-radius: 10px;
+        filter: blur(8px);
+        animation: glowing 20s linear infinite;
+    }
+
+    @keyframes glowing {
+        0% {
+            background-position: 0 0;
+        }
+
+        50% {
+            background-position: 400% 0;
+        }
+
+        100% {
+            background-position: 0 0;
+        }
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1430px) {
+    button {
+        background: black;
+        cursor: pointer;
+        border: none;
+        padding: 16px 32px;
+        color: #fff;
+        font-size: 24px;
+        font-weight: bold;
+        position: relative;
+        border-radius: 14px;
+        top: 60%;
+        left: 147%;
+    }
+
+    button::before {
+        content: "";
+        position: absolute;
+        top: 0%;
+        left: 0;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(45deg, Red, blue, deeppink, blue, Red, blue, deeppink, blue);
+        background-size: 800%;
+        border-radius: 10px;
+        filter: blur(8px);
+        animation: glowing 20s linear infinite;
+    }
+
+    @keyframes glowing {
+        0% {
+            background-position: 0 0;
+        }
+
+        50% {
+            background-position: 400% 0;
+        }
+
+        100% {
+            background-position: 0 0;
+        }
+    }
+}
+
+@media (min-width: 1430px) and (max-width: 1600px) {
+    button {
+        background: black;
+        cursor: pointer;
+        border: none;
+        padding: 16px 32px;
+        color: #fff;
+        font-size: 24px;
+        font-weight: bold;
+        position: relative;
+        border-radius: 14px;
+        top: 60%;
+        left: 147%;
+    }
+
+    button::before {
+        content: "";
+        position: absolute;
+        top: 0%;
+        left: 0;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(45deg, Red, blue, deeppink, blue, Red, blue, deeppink, blue);
+        background-size: 800%;
+        border-radius: 10px;
+        filter: blur(8px);
+        animation: glowing 20s linear infinite;
+    }
+
+    @keyframes glowing {
+        0% {
+            background-position: 0 0;
+        }
+
+        50% {
+            background-position: 400% 0;
+        }
+
+        100% {
+            background-position: 0 0;
+        }
+    }
+}
+
+@media (min-width: 1600px) {
+    button {
+        background: black;
+        cursor: pointer;
+        border: none;
+        padding: 16px 32px;
+        color: #fff;
+        font-size: 24px;
+        font-weight: bold;
+        position: relative;
+        border-radius: 14px;
+        top: 60%;
+        left: 200%;
+    }
+
+    button::before {
+        content: "";
+        position: absolute;
+        top: 0%;
+        left: 0;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(45deg, Red, blue, deeppink, blue, Red, blue, deeppink, blue);
+        background-size: 800%;
+        border-radius: 10px;
+        filter: blur(8px);
+        animation: glowing 20s linear infinite;
+    }
+
+    @keyframes glowing {
+        0% {
+            background-position: 0 0;
+        }
+
+        50% {
+            background-position: 400% 0;
+        }
+
+        100% {
+            background-position: 0 0;
+        }
+    }
 }
