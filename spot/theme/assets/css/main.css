@@ -100,7 +100,7 @@ hr {
 }
 
 .navbar-inverse .navbar-nav>.active>a {
-    background: #f7d200
+    background: #99761c
 }
 
 .navbar-inverse .navbar-brand {
@@ -202,7 +202,7 @@ hr {
 
 /* Red Wrap */
 #r {
-    background: #93c572;
+    background: #99761c;
     padding-top: 35px;
     padding-bottom: 35px;
 }
@@ -219,7 +219,7 @@ hr {
 /* Blue Wrap */
 
 #blue {
-    background: #3498db;
+    background: #99761c;
     padding-top: 35px;
     padding-bottom: 35px;
 }
